@@ -8,9 +8,9 @@ def timed_math_quiz
 
   i = 0
 
-  while i < 3
-    digit_one = rand(10)
-    digit_two = rand(10)
+  while i < 10
+    digit_one = rand(20)
+    digit_two = rand(20)
     digit_answer = digit_one + digit_two
 
     puts "What is " + digit_one.to_s + " + " + digit_two.to_s
